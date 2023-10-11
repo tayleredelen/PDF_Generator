@@ -17,7 +17,6 @@ pdf.cell(w=0, h=12, txt="hi", align="L", ln=1, border=1)
 # break line (0 is added after width ends)
 # border of cell
 
-
 pdf.add_page()
 pdf.set_font(family="Times", style="B", size=12)
 pdf.cell(w=0, h=12, txt="goodbye", align="L", ln=1, border=1)
