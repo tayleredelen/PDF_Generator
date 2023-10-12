@@ -24,6 +24,7 @@ for index, row in df.iterrows():
 #     y2 value = distance from right border to top of pdf in defined unit (mm)
 
     # sets footer
+
     # sets footer
     pdf.ln(265)
     # paramater is height in selected unit (mm) places text at bottom of page
