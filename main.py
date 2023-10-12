@@ -17,4 +17,8 @@ for index, row in df.iterrows():
 #     x2 value = distance from right border to right edge of pdf in defined unit (mm)
 #     y2 value = distance from right border to top of pdf in defined unit (mm)
 
+    for i in range(row["Pages"] - 1):
+        pdf.add_page()
+    # range is Python type, resembles lists
+
 pdf.output("topics.pdf")
